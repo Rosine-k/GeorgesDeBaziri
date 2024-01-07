@@ -1,0 +1,21 @@
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+  
+.banner__img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+  
+.banner__text {
+    position: absolute;
+    top: 50%; 
+    right: 100px; 
+    transform: translateY(-50%);
+    color: goldenrod; 
+    font-size: 44px; 
+    text-align: center;
+}
+  

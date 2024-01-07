@@ -1,0 +1,63 @@
+.choix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    margin-top: 60px;
+}
+  
+.choix__block {
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    // transition: transform 0.3s ease-in-out;
+}
+  
+.vignette {
+    width: 350px; /* Ajustez selon vos besoins */
+    height: 400px; /* Pour conserver les proportions de l'image */
+    display: block;
+    // object-fit: cover;
+}
+  
+.vig__accueil {
+    margin-top: 10px; 
+    // transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: white;
+    font-size: 20px;
+    // padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+// .vig__accueil:hover {
+//     transform: scale(1.1);
+// }
+
+.choix__block:hover .vignette,
+  .vig__accueil:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ajoutez ce code dans votre fichier CSS ou dans la balise style de votre fichier React */
+
+.decoimg {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .deco {
+    flex: 1;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    object-fit: cover; /* Ajustez cela selon vos préférences (cover, contain, etc.) */
+  }
+  
+  

@@ -1,0 +1,14 @@
+.navigation {
+  background-color: black;
+  display: flex;
+}
+
+#search-icon {
+  width: 10px;
+}
+
+.navigation__accueil {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

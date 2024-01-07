@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__liens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 18px;
+}
+
+.navigation {
+   background-color: black;
+
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+}
+
+#search-icon {
+    width: 15px;
+    height: 15px;
+}
+
+#search-button {
+    background-color: black;
+    border: 1px solid goldenrod;
+    height: 27px;
+    margin-bottom: 2px;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;    
+}
+
+#search-input {
+    height: 21px;
+}
+
+#search-form {
+    display: flex;
+}
+
+#search-input:focus + #search-button,
+#search-button:hover {
+  background-color: goldenrod;
+  border-color: black;
+}
+
+
+.navigation__vetementsh, .navigation__vetementsf, .navigation__accessoires, .navigation__panier {
+    text-decoration: none;
+    color: white;
+    // margin-left: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigation__vetementsh:hover, .navigation__vetementsf:hover, .navigation__accessoires:hover, .navigation__panier:hover {
+    color: goldenrod;
+}
+
+#logoPanier {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#logoPanier:hover {
+    transform: scale(1.2); 
+}
+
+.block__panier {
+    display: inline-flex;
+    gap: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    // left: 0;
+    // right: 0;
+    width: 100%;
+    z-index: 1000;
+} 
